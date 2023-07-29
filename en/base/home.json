@@ -1,0 +1,78 @@
+{
+    "home": {
+        "loggedIn": {
+            "title": "Welcome to BeepBot {user}!",
+            "desc1": "Beep is so happy to see you!",
+            "hasChannel": {
+                "title": "Beep is thinking...",
+                "comment1": "What are you going to stream today?",
+                "comment2": "Have you got a bottle of water near by?",
+                "comment3": "You're my favorite person!",
+                "comment4": "What's better, cookies or chips?",
+                "comment5": "Do you want to be my friend?"
+            },
+            "noChannel": {
+                "desc1": "Hello! Beep noticed that you do not have a Channel added with us.",
+                "desc2": "If you'd like a channel to use BeepBot. Please click the button below to create one!",
+                "desc3": "If you are only here as a Manager for another channel, you can skip this step.",
+                "desc4": "To find a channel to manage. Click on your avatar (top-right), then Manage to find the channel to manage them!",
+                "createBtn": "Create Channel"
+            }
+        },
+        "loggedOut": {
+            "tabTitle": {
+                "0": "Welcome!",
+                "1": "What is BeepBot?",
+                "2": "What makes me different?"
+            },
+            "tab": {
+                "0": {
+                    "title": "Welcome to BeepBot!",
+                    "desc1": "Beep is so happy to see you!"
+                },
+                "1": {
+                    "title": "My Core Features"
+                },
+                "2": {
+                    "desc1": "The biggest difference in BeepBot versus other bots is that it is fully cloud-based. Most bots are downloaded onto your PC which takes up precious resources and can cause lag at the most inopportune times.",
+                    "desc2": "BeepBot being cloud-based means that no matter where you go (convention, Microsoft Store Event, traveling, etc) BeepBot is ready to help run your stream without the need of packing your PC or backing up your bot software/configurations onto a USB drive. It is ready to perform when you are!",
+                    "desc3": "We have also added in a robust event system called IFTBT (If This Beep That). The system allows for your creativity to shine through on your streams without needing to code custom scripts to get them to communicate."
+                }
+            },
+            "feature": {
+                "commands": {
+                    "title": "Commands",
+                    "description": "Create custom commands easily with our built-in editor."
+                },
+                "quotes": {
+                    "title": "Quotes Database",
+                    "description": "Create quotes to help capture moments from your streams."
+                },
+                "regulars": {
+                    "title": "Regulars Management",
+                    "description": "Regulars can be set up to allow them to bypass filters and gain extra perks."
+                },
+                "managers": {
+                    "title": "Account Managers",
+                    "description": "Allow other users to manage your account for you, with custom permissions."
+                },
+                "points": {
+                    "title": "Customizable Points System",
+                    "description": "Our configurable points system allows you to set up different earn rates for your viewers."
+                },
+                "hosting": {
+                    "title": "Automated Hosting",
+                    "description": "Using our auto-host system, you can control who will be hosted and whether they're prioritized or random."
+                },
+                "schedule": {
+                    "title": "Weekly Schedule",
+                    "description": "Create a week-long stream schedule with ease. set times, games and other players."
+                },
+                "iftbt": {
+                    "title": "IFTBT",
+                    "description": "If This Beep That is our robust event system. Create customized alerts based on specific events."
+                }
+            }
+        }
+    }
+}

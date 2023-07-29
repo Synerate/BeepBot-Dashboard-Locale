@@ -1,0 +1,17 @@
+{
+    "users": {
+        "regulars": {
+            "title": "Regulars",
+            "desc1": "",
+            "error": {
+                "noUser": "You need to set a username to add as a regular",
+                "invalidUser": "The user {user} was not found on {platform}. Did you type the name correctly?"
+            },
+            "table": {
+                "platform": "Platform",
+                "username": "Username"
+            },
+            "desc2": "Tip: To add Discord regulars you will need to use the command in your Discord server."
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "files": {
+        "title": "File Manager",
+        "delete": "file",
+        "table": {
+            "name": "Name",
+            "type": "Type",
+            "preview": "Preview",
+            "size": "Size",
+            "created": "Created At"
+        },
+        "dialog": {
+            "title": "Upload File",
+            "desc1": "Upload your files to use with IFTBT or Overlays.",
+            "desc2": "Currently you can upload any image, video or audio file type. Limit: 50MB per upload.",
+            "button": "Upload File",
+            "fileName": "Name your file",
+            "fileZone": "Add your file..."
+        },
+        "noPreview": "No Preview Available",
+        "usage": "Storage Usage: { used } of { total } ({ percentage })"
+    }
+}

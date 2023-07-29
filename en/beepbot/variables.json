@@ -1,0 +1,12 @@
+{
+    "variables": {
+        "title": "Variables",
+        "desc1": "Variables can be used like counter. I.E. Fail counter, or success counter.",
+        "desc2": "When you go offline on <1>any</1> platform, and reset is enabled the variable value will be reset to 0.",
+        "table": {
+            "name": "Name",
+            "value": "Value",
+            "reset": "Offline Reset"
+        }
+    }
+}

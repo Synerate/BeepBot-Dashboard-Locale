@@ -1,0 +1,16 @@
+{
+    "status": {
+        "header": "BeepBot Status",
+        "desc1": "Live statistics on the applications which power BeepBot & Synerate.",
+        "title": {
+            "api": "API Status",
+            "apps": "{server} Status"
+        },
+        "loading": {
+            "api": "Awaiting API Data...",
+            "apps": "Awaiting Server Data..."
+        },
+        "state1": "CPU: {cpu}% Mem: {mem}",
+        "state2": "Uptime: {uptime}"
+    }
+}

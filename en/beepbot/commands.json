@@ -1,0 +1,56 @@
+{
+    "commands": {
+        "args": {
+            "title": "Command Argument",
+            "select": "Select an argument",
+            "examples": "Examples",
+            "complete": "Complete your argument",
+            "completeHelp": "You can tweak the argument to your needs before adding it.",
+            "completeInfo": "Note the symbols '[ ]' are just used to show the argument options clearer. These need to be removed.",
+            "addBtn": "Add an argument"
+        },
+        "custom": {
+            "title": "Commands",
+            "desc1": "Custom commands for your channel.",
+            "table": {
+                "name": "Name",
+                "message": "Message",
+                "userRole": "User Role",
+                "cooldown": "Cooldown",
+                "services": "Services"
+            },
+            "tooltip": {
+                "beepbot": "BeepBot Commands",
+                "public": "{user}'s Public Page",
+                "advanced": "Advanced Options",
+                "tags": "Tags: {tags}"
+            }
+        },
+        "advanced": {
+            "title": "Advanced Options",
+            "desc1": "Adjust or tweak advanced options for your commands.",
+            "options": {
+                "allowedUsers": "Allowed Users",
+                "allowedUsersHelp": "Type in the username to add to the allowed list. Then either hit enter or comma to add the user to the field.",
+                "costs": "Command Costs",
+                "costsHelp": "Set the cost amount for the user-role to execute the command.",
+                "tags": "Command Tags",
+                "tagsHelp": "Set the tags for the command. This will help with searching for commands and/or quick enabling or disabling of commands. (Max: 5)"
+            },
+            "tabs": {
+                "general": "General Options",
+                "discord": "Discord Embed"
+            }
+        },
+        "alias": {
+            "title": "Aliases",
+            "desc1": "Aliases help to make a command run another. Supported Params: {user} {touser} {arg 0-9}",
+            "table": {
+                "enabled": "Enabled",
+                "name": "Name",
+                "command": "Command",
+                "args": "Arguments"
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "managers": {
+        "title": "Current Managers",
+        "add": "Add Manager",
+        "addDesc1": "Hit the button to start the process to adding a new manager.",
+        "desc1": "You can add users to account who can then modify your account. But you can assign what they can do on a project basis. Currently supported is BeepBot so you can set what they can edit/change. Such as Commands or Quotes. Once added, they will see your channel on their panel to hop straight into it.",
+        "manage": {
+            "title": "Assign Scopes",
+            "desc1": "Select the scopes which you want the user to have access too.",
+            "scopes": "Scopes",
+            "scopesAll": "Make sure you trust the user before giving them access to all scopes.",
+            "select": "Select All",
+            "listing": "Pick the scopes in which you want your manager to have access too."
+        }
+    }
+}

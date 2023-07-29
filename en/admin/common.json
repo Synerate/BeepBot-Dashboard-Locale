@@ -1,0 +1,77 @@
+{
+    "admin": {
+        "dashboard": {
+            "title": "Admin Dashboard",
+            "desc1": "Welcome back {user}! Here are todays statistics",
+            "stats": {
+                "users": "Registered Users: {users}",
+                "channels": "Registered Channels: {channels}",
+                "bots": "Connected Bots: {bots}"
+            }
+        },
+        "users": {
+            "search": {
+                "title": "Manage User",
+                "desc1": "Search for a user to manage"
+            },
+            "dialog": {
+                "title": "Editing {name}",
+                "desc1": "View account information & manage attached roles.",
+                "stats": {
+                    "title": "Account Information",
+                    "userId": "User Id: {id}",
+                    "created": "Registered: {date}",
+                    "updated": "Updated: {date}",
+                    "referred": "Referred By: {user}"
+                },
+                "roles": {
+                    "title": "Account Roles",
+                    "list": {
+                        "admin": "Admin",
+                        "staff": "Staff",
+                        "support": "Support",
+                        "pro": "Pro",
+                        "partners": "Partners",
+                        "alpha": "Alpha",
+                        "beta": "Beta"
+                    },
+                    "updated": "Successfully updated the roles for {user}."
+                },
+                "other": {
+                    "title": "Manage Other Settings"
+                },
+                "partner": {
+                    "title": "Toggle Partner Status",
+                    "desc1": "If the user is made a partner they will be given Pro for life. If the status is removed the Pro status is also removed.",
+                    "added": "Successfully made {user} a partner.",
+                    "removed": "Successfully removed {user} as a partner."
+                },
+                "beta": {
+                    "title": "Toggle Beta Status",
+                    "desc1": "If the user is made a beta they will be given Pro for as long as this is enabled. If the status is removed the Pro status is also removed.",
+                    "added": "Successfully made {user} a beta user.",
+                    "removed": "Successfully removed {user} as a beta user."
+                },
+                "disabled": {
+                    "title": "Disable User",
+                    "desc1": "Disabling a user prevent then from using any Synerate owned website."
+                },
+                "updated": "Successfully updated {user}'s user data."
+            }
+        },
+        "notifications": {
+            "title": "Manage Notifications",
+            "desc1": "Edit or publish new notifications for users to see",
+            "table": {
+                "tableName": "Listing",
+                "type": "Type",
+                "category": "Category",
+                "title": "Title",
+                "description": "Description",
+                "audience": "Audience",
+                "customColor": "Color",
+                "persistent": "Persistent"
+            }
+        }
+    }
+}

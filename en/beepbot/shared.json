@@ -1,0 +1,8 @@
+{
+    "shared": {
+        "commands": {
+            "title": "Team Commands",
+            "desc1": "Create commands to have in all your members channels. They'll be able to call the command as they would if it was added into thier own channel."
+        }
+    }
+}

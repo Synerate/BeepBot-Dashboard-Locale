@@ -1,0 +1,28 @@
+{
+    "predictions": {
+        "title": "Channel Predictions",
+        "desc1": "Quickly create and control predictions that viewers can interact with on Twitch.",
+        "descUser": "As a user, you are able to create upto 2 different predictions.",
+        "descPro": "As a pro user, you are able to create upto 10 differents predictions.",
+        "limitUpdate": "Live updates on this dashboard will come in a future update. Stay tuned!",
+        "limitNotice": "Note: Twitch do allow 10 outcomes when made on the site. However, you can only create upto 2 outcomes on the API. We're told this is under review for an update.",
+        "table": {
+            "tableTitle": "Predictions",
+            "name": "Name",
+            "title": "Title",
+            "runTime": "Run Time (Seconds)",
+            "outcomes": "Outcomes (Min 2, Max 10)"
+        },
+        "active": {
+            "title": "Active Predictions",
+            "desc1": "Control any active predictions. You can select the outcome below to end the prediction. Or cancel it.",
+            "none": "No predictions runnning."
+        },
+        "action": {
+            "start": "Start Prediction"
+        },
+        "started": "Prediction has been started.",
+        "ended": "The prediction has been ended.",
+        "cancelled": "The prediction has been cancelled."
+    }
+}

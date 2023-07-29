@@ -1,0 +1,23 @@
+{
+    "health": {
+        "title": "Health Reminders",
+        "desc1": "Your health and wellbeing are important to us! We know you love streaming and sharing content to your community, but you may forget to do simple things to keep yourself healthy.",
+        "desc2": "So that's where BeepBot comes in to help you & chat. Setup your message and interval below, then we'll detect when you’re live to get the message posted into chat. This reminder will help you remember to get up and stretch, and hydrate!",
+        "desc3": "If enabled we shall detect when you go online to start the tracking of your set interval. Once you go offline we will stop tracking. Otherwise, if you enable this while already online the tracker will also start.",
+        "enable": {
+            "help": "Enabling this will tell the bot to post the messages into chat."
+        },
+        "interval": {
+            "title": "Interval",
+            "help": "How often should the reminder be posted into chat?"
+        },
+        "message": {
+            "title": "Message",
+            "help": "The message in-which will be sent to chat."
+        },
+        "useIFTBT": {
+            "btn": "Use IFTBT",
+            "help": "Use IFTBT to send messages or sounds when a health reminder is due to be executed. This disables the built-in messaging. So you'll need to set-up the IFTBT action for the platforms you want messages sent too. You can find this IFTBT action under \"BeepBot\"."
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "queue": {
+        "title": "Queue",
+        "desc1": "Users can join the queue in chat using the command. Then they'll appear in this list, allowing you to pick people to play your next game or join a voice session for example.",
+        "select": {
+            "title": "Select Platform"
+        },
+        "deleteUser": "Remove Queued User",
+        "deletedUser": "{user} has been removed from the queue.",
+        "empty": "The queue for {provider} is empty.",
+        "clear": "Clear Queue",
+        "cleared": "The queue for {provider} has been cleared.",
+        "picked": "Last Picked: {users}"
+    }
+}

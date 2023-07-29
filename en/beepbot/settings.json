@@ -1,0 +1,110 @@
+{
+    "settings": {
+        "tab": {
+            "general": "General",
+            "command": "Command",
+            "protection": "Protection",
+            "social": "Social",
+            "import": "Import"
+        },
+        "command": {
+            "internal": {
+                "title": "Enable or Disable",
+                "desc1": "Here you can enable or disable some of the internal commands. Ideal if you have other services doing the same thing, or don't want to use it."
+            },
+            "clip": {
+                "desc1": "Choose your clip service below. Choosing \"Platform\" will use Twitch's built in clip service."
+            }
+        },
+        "import": {
+            "title": "Import",
+            "desc1": "Here you can select supported third party bots to import data into BeepBot.",
+            "desc2": "We will try to convert as much as the data to the format we use, and then show to you which item(s) could not be converted automatically and allow you to make adjustments.",
+            "desc3": "If your current bot/application is not listed below, you can download our Generic Import Template [Excel File] and fill out the details. Once you complete the form, upload it using the Generic importer selection.",
+            "btnDownload": "Template Download",
+            "title2": "Import Wizard",
+            "step": {
+                "0": "Service",
+                "1": "Whats Supported",
+                "2": "Upload",
+                "3": "Review",
+                "4": "Import",
+                "5": "Completed"
+            },
+            "stepHelp": {
+                "0": "Pick any of the supported services below to get started.",
+                "1": "Select which items you want to import. (Click on the Icon on the end of each item to change the setting)",
+                "2": "Selected the export file for the service to continue.",
+                "3": "",
+                "4": "Please review each section for any errors or problems before continuing.",
+                "5": "Please review any errors below to see about any duplicates or issues importing into our API. If something does not look right, please file a support ticket!"
+            },
+            "stepHelpAuth": "Use the button below to sign into {service}. This will allow us to get the needed information to import your data.",
+            "serviceHelp": {
+                "generic": {
+                    "export": {
+                        "1": "Please use the export file provided to load up with your data to then import into BeepBot."
+                    },
+                    "commands": "",
+                    "quotes": "",
+                    "help1": ""
+                },
+                "mixitup": {
+                    "export": {
+                        "1": "Open the settings view by clicking the Settings Wheel on the top-right.",
+                        "2": "Click on Advanced on the Left Menu, then click on \"Installation Folder\" to open the location of the installed files.",
+                        "3": "Navigate to the \"Settings\" folder, where you'll find your settings file.",
+                        "4": "The file you need to use for importing will be file ending with the `.db` extension. (Or Data Base File)"
+                    },
+                    "commands": "Due to MixItUp's vast variables, we are only able to convert arguments to ones we support. Please review your command messages to check for broken ones.",
+                    "quotes": "Due to how MixItUp handles quotes, they do not ask for the user who said the quote. We do, so you'll need to review all your quotes before importing.",
+                    "help1": ""
+                },
+                "streamlabs": {
+                    "export": {
+                        "1": "Open your profile settings by clicking the user icon on the bottom left.",
+                        "2": "Click on the \"Cloud\" button on the left menu, then click on \"Create Excel Files\" to generate the files needed for importing.",
+                        "3": "Now you'll have a `Data.xlsx` which is used for importing into BeepBot."
+                    },
+                    "commands": "Due to StreamLabs's vast variables, we are only able to convert arguments to ones we support. Please review your command messages to check for broken ones.",
+                    "quotes": "Due to how StreamLabs handles quotes, they do not ask for the user who said the quote or the game. We do, so you'll need to review all your quotes before importing.",
+                    "help1": ""
+                },
+                "firebot": {
+                    "export": {
+                        "1": "Open the settings then on the General tab. Click on `Root Folder Access`",
+                        "2": "Click on Advanced on the Left Menu, then click on \"Installation Folder\" to open the location of the installed files.",
+                        "3": "Navigate to the \"Settings\" folder, where you'll find your settings file."
+                    },
+                    "commands": "Due to FireBot's vast variables, we are only able to convert arguments to ones we support. Please review your command messages to check for broken ones.",
+                    "quotes": "",
+                    "help1": "This needs to be the `quotes.db` file.",
+                    "help2": "This needs to be the `commands.json` file."
+                },
+                "scottybot": {
+                    "commands": "",
+                    "quotes": "Please re-view you quotes as we have to generate the values from a single data-entry. Which seems to differ on newerr and older accounts."
+                },
+                "nightbot": {
+                    "commands": ""
+                }
+            },
+            "exportHelp": "Export Help",
+            "export": {
+                "title": "Export Help",
+                "desc1": "Guidelines on where to get/generate an export for {service}",
+                "imageHelp": "Image Reference"
+            },
+            "fileTitle": "Export File",
+            "processStep": {
+                "commands": "Converting Commands...",
+                "quotes": "Converting Quotes....",
+                "done": "Uploaded data has been processed. Please click Next",
+                "noIssues": "No Issues Reported",
+                "missingGrant": "The channel owner does not have {provider} connected. Please ask them to connect the needed provider."
+            },
+            "viewTitle": "Imported: {number} {datatype}",
+            "invalidFile": "Imported file is invalid. Please check and try again. If issue persits please contact support."
+        }
+    }
+}

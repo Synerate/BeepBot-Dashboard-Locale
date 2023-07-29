@@ -1,0 +1,6 @@
+{
+    "login": {
+        "title": "Connect to {app}",
+        "popup": "We use popups, make sure to enable then!"
+    }
+}

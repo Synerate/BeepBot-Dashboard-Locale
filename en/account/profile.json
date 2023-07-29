@@ -1,0 +1,73 @@
+{
+    "profile": {
+        "title": "Hello, {user}!",
+        "desc1": "This is your profile, where it's all about you!",
+        "desc1Manage": "This is {user}'s profile. You've been given Manager access to help manage their account.",
+        "desc2": "Here you can add or remove services, or even add managers to help manage your project(s). If you need assistance, you may create a support ticket at https://support.beepbot.app , and one of our team members will assist you.",
+        "stats": {
+            "title": "Your Info:",
+            "registered": "Account Registered: {date}",
+            "roles": "Roles"
+        },
+        "services": {
+            "title": "Service Linking",
+            "desc1": "Linking one of the below services will expand where BeepBot can be connected to. For example, linking your Discord account will allow you to use BeepBot on Discord. BeepBot can be connected to multiple services simultaneously!",
+            "desc2": "Note: Using the 'Delete' button will remove anything linked to the service, such as your bot's connection!",
+            "desc3": "Note: You are unable to remove your primary account!",
+            "primary": {
+                "title": "Change Your Primary Service",
+                "changed": "Successfully updated your primary account!"
+            },
+            "remove": {
+                "title": "Service Removal",
+                "desc1": "WARNING! This will undo your service link from your Synerate account. This will not resolve any problems with BeepBot. If you have a bug or issue with BeepBot, please file a support ticket. Otherwise, please feel free to remove this service link."
+            }
+        },
+        "integration": {
+            "title": "Integration Linking",
+            "desc1": "Linking to one of the below integrations will allow you to connect to the available 'Events' for that specific platform.",
+            "desc2": "Note: Removing these connections can break any features which rely on them."
+        },
+        "managers": {
+            "desc1": "Managers are an easy way to have other users help manage your BeepBot account. For example: you can allow other users to help you manage your bot's settings such as editing commands or adding quotes. You choose what they have access too!"
+        },
+        "teams": {
+            "desc1": "Teams with Synerate allow you to share data about your account to other members. Depending on the service selected, this allows you share your Discord Server with specified users so they can send events you define to the server. In future updates, you'll even be able to share your commands.",
+            "primary": {
+                "title": "Change Your Primary Team",
+                "desc1": "Your primary team is used for loading shared data, before any other team's data or your BeepBot data.",
+                "changed": "Successfully updated the primary team!"
+            }
+        },
+        "lang": {
+            "title": "Language Selection"
+        },
+        "delete": {
+            "title": "Delete Account",
+            "desc1": "We are sad to see you go! If you no longer want your Synerate account, then you can use the button below to delete your account(s).",
+            "desc2": "This will remove all your account information, along with your BeepBot data. This step is irreversible!",
+            "desc3": "Before you go, have you tried our support desk to see about resolving any issues you might have experienced? You can find the support link in the menu above.",
+            "desc4": "",
+            "dialog": {
+                "title": "Confirm Account Deletion",
+                "desc1": "Are you sure you want to delete your Synerate account? Again, this is irreversible!"
+            }
+        },
+        "download": {
+            "title": "BeepBot Export",
+            "desc1": "Here you can export all of your data which has been created from BeepBot. This data, at the current time, is unable to be used for importing, but is planned for future! Currently, it is just a nice way to see your data.",
+            "desc2": "Please note: This data is a raw export designed to be used for advanced purposes. Other data formats will be added in due time."
+        },
+        "serviceState": "service link",
+        "primary": "Primary",
+        "auth": {
+            "key": {
+                "title": "API Key",
+                "desc1": "This API key can be used to access the API as yourself. This key is mostly used for applications created by Synerate.",
+                "desc2": "DO NOT SHARE THIS KEY WITH ANYONE!",
+                "generated": "API Key Generated!",
+                "copied": "API Key Copied!"
+            }
+        }
+    }
+}

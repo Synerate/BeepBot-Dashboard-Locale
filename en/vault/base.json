@@ -1,0 +1,28 @@
+{
+    "vault": {
+        "home": {
+            "title": "{user}'s Vault"
+        },
+        "keystore": {
+            "desc1": "View all the giveaways you have won across the BeepBot Network. You'll be able to see all your keys and links to redeem your wins.",
+            "desc2": "This is where keys you have won in BeepBot giveaways are stored.",
+            "desc3": "Not seeing any won keys? Check that your have linked any missing accounts in the profile page.",
+            "table": {
+                "claimedAt": "Claimed At",
+                "channelWon": "Channel",
+                "providerWon": "Account Used",
+                "name": "Name",
+                "service": "Service",
+                "key": "Key/URL",
+                "redeem": "Redeem"
+            },
+            "redeem": {
+                "steam": "Click to redeem on Steam",
+                "epic": "Click to redeem on EpicGames"
+            }
+        },
+        "currency": {
+            "desc1": "View your currencies you have earned in channels. You'll also be able to claim the daily claims and play games. (Comming Soon)"
+        }
+    }
+}

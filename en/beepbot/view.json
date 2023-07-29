@@ -1,0 +1,22 @@
+{
+    "view": {
+        "commands": {
+            "internal": {
+                "title": "BeepBot Command Help",
+                "desc1": "Listing of internal commands & arguments to help you create powerful commands!",
+                "internal": "Internal",
+                "args": "Arguments",
+                "usage": "Usage",
+                "examples": "Examples"
+            }
+        },
+        "channel": {
+            "title": "{channel}'s Channel Data",
+            "commands": "Commands",
+            "quotes": "Quotes",
+            "schedule": "Schedule",
+            "queue": "Queue",
+            "copyPopout": "Copy Popout Link"
+        }
+    }
+}

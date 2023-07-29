@@ -1,0 +1,12 @@
+{
+    "404": {
+        "title": "Page Not Found",
+        "desc1": "This is not the web page you are looking for.",
+        "btn": "Back to Safety"
+    },
+    "update": {
+        "twitch_event_sub": {
+            "snackbar": "Warning! In anticipation of some new features for BeepBot, we're asking all of our Twitch users to update their authentication with Twitch. We have noticed that yours is currently not updated. Please log out then back in with Twitch to update your authentication."
+        }
+    }
+}

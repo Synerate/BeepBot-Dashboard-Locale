@@ -1,0 +1,92 @@
+{
+    "dashboard": {
+        "tabs": {
+            "live": "Live Dash",
+            "controls": "Controls",
+            "leaderboard": "Leaderboard(s)",
+            "stats": "Stats"
+        },
+        "live": {
+            "events": {
+                "followed": "{user} followed",
+                "hosted": "{user} hosted ({viewers} viewers)",
+                "subscribedSub": "{user} subbed",
+                "subscribedReSub": "{user} resubbed for {total} months",
+                "subscribedGift": "{gifter} gifted {user} a sub",
+                "subTier": "{data} with {tier}",
+                "monetizationCheer": "{user} cheered with {amount} bits",
+                "monetizationSpell": "{user} has sent {amount} {type} ({name})"
+            },
+            "noMessages": "No Messages Yet!",
+            "noChatters": "No Chatters Yet!",
+            "noEvents": "No Events Yet!",
+            "titles": {
+                "events": "Events",
+                "messages": "Messages",
+                "chatters": "Chatters"
+            },
+            "tooltips": {
+               "followed": "Followed",
+               "hosted": "Hosted",
+               "subscribed": "Subscribed",
+               "monetization": "Monetization"
+            }
+        },
+        "controls": {
+            "bot": {
+                "state": {
+                    "leave": "Leave",
+                    "join": "Join",
+                    "joining": "Joining..."
+                },
+                "reset": {
+                    "title": "Reset Bot",
+                    "text": "This will perform a reset on the bot service, to flush any connection issues. Note: This may resolve most of any issues but some may still be lurking.",
+                    "sent": "Reset request sent..."
+                }
+            },
+            "events": {
+                "title": "Event Tracker",
+                "desc1": "Events not showing? Or firing? Check the status of events here.",
+                "desc2": "All events are optional and are not required to be enabled, but some events may be required for certain features to work.",
+                "desc3": "Key: Green = Enabled, Red = Requires Migration, Yellow = Not Setup",
+                "requesting": "Requesting the subscription please wait...",
+                "migrating": "Migrating the subscription please wait...",
+                "twitch": {
+                    "channel_follow": "Channel Followed",
+                    "channel_update": "Channel Updates",
+                    "channel_raid": "Channel Raided",
+                    "channel_channel_points_custom_reward_redemption_add": "User Redeems Channel Reward",
+                    "stream_online": "Channel Online",
+                    "stream_offline": "Channel Offline",
+                    "channel_hype_train_begin": "Hype Train Started",
+                    "channel_hype_train_progress": "Hype Train Progressed",
+                    "channel_hype_train_end": "Hype Train Ended",
+                    "channel_charity_campaign_donate": "Charity Donation",
+                    "channel_ban": "User Banned & Timeout",
+                    "channel_unban": "User Unbanned"
+                },
+                "states": {
+                    "subscribe": "Subscribe to Event",
+                    "migrate": "This Event Requires Migration!"
+                }
+            }
+        },
+        "leaderboard": {
+            "title": "Leaderboard(s)",
+            "desc1": "*The selector only works on Sparks/Embers. Points is always 'All Time'. Twitch coming soon.",
+            "type": {
+                "sparks": "sparks",
+                "embers": "embers",
+                "points": "points"
+            },
+            "timeframe": {
+                "all": "All Time",
+                "yearly": "Yearly",
+                "monthly": "Monthly",
+                "weekly": "Weekly"
+            },
+            "total": "Total: {total}"
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "services": {
+        "discord": {
+            "title": "Linked Server: {name}",
+            "teams": {
+                "shared": {
+                    "title": "Team Attached: {name}",
+                    "unlink": "Unlink Team",
+                    "unlinked": "Successfully unlinked your Discord Server from your team!",
+                    "desc1": "Now that you have your team attached you can now pick channels and the IFTBT events which are allowed to be used in your Discord Server.",
+                    "desc2": "When you add users to your team they'll be able to see the Discord server as an option. But it will only list the channels you pick and only on the events you've selected.",
+                    "allowedUpdated": "Successfully updated the allowed channels.",
+                    "allowedEvents": "Successfully updated the allowed events.",
+                    "channels": {
+                        "title": "Allowed Channels",
+                        "desc1": "The list of allowed channels which team users are allowed to post events into.",
+                        "openDialog": "Add Channels"
+                    },
+                    "events": {
+                        "title": "Allowed IFTBT Events",
+                        "desc1": "Select the IFTBT events which you would allow your team members to use for sending events.",
+                        "openDialog": "Add IFTBT Events"
+                    }
+                },
+                "notShared": {
+                    "title": "Not Currently Shared.",
+                    "desc1": "Linking a team will allow your team members to gain access to extended IFTBT Functionality to send their events to your Discord.",
+                    "desc2": "As an example you can allow your members to post Online events to an announcements channel.",
+                    "list": {
+                        "title": "Your Teams",
+                        "select": "Select a team...",
+                        "link": "Link Team"
+                    },
+                    "linked": "Successfully linked your Discord Server to your team!"
+                }
+            },
+            "noDiscord": {
+                "title": "Discord Server",
+                "desc1": "Joining your Discord Server to BeepBot will allow you to perform commands as you would in stream chat!",
+                "desc2": "You'll also be able to send events via IFTBT to your server, how cool is that?",
+                "join": "Join Discord Server",
+                "popup": "Discord Authentication"
+            },
+            "noGrant": {
+                "title": "Discord Server",
+                "desc1": "To get access to Discord Integrations, you need to first join your Discord account to your Synerate account.",
+                "desc2": "<0>Click here</0> to join now!"
+            }
+        }
+    }
+}

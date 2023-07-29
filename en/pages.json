@@ -1,0 +1,85 @@
+{
+    "pages": {
+        "base": {
+            "home": "Home",
+            "404": "Not Found",
+            "login": "Login",
+            "referral": "Referral Invite",
+            "pro": "BeepBot Pro",
+            "status": "BeepBot Status"
+        },
+        "account": {
+            "userProfile": "User Profile",
+            "managers": {
+                "base": "Managers",
+                "modify": "Modify Manager"
+            },
+            "teams": {
+                "base": "Teams",
+                "manage": "Manage Team"
+            },
+            "userAuth": "User Auth"
+        },
+        "admin": {
+            "base": "Admin Dashboard"
+        },
+        "beepbot": {
+            "dashboard": {
+                "base": "Dashboard",
+                "home": "Home",
+                "controls": "Controls"
+            },
+            "commands": "Commands",
+            "quotes": "Quotes",
+            "games": {
+                "base": "Games",
+                "heists": "Heists",
+                "duel": "Duel",
+                "queue": "Queue"
+            },
+            "currency": "Currency",
+            "users": "Users",
+            "settings": {
+                "base": "Settings",
+                "core": "Core Options",
+                "integrations": "Integrations"
+            },
+            "iftbt": "IFTBT",
+            "files": "Files",
+            "schedule": "Schedule",
+            "bots": "Bot Accounts",
+            "tools": {
+                "botAuth": "Bot Auth"
+            },
+            "giveaway": "Giveaways",
+            "overlay": "Overlays",
+            "auto": {
+                "base": "Automation",
+                "timers": "Timers",
+                "adverts": "Adverts",
+                "health": "Health",
+                "predictions": "Predictions"
+            }
+        },
+        "view": {
+            "commands": "BeepBot Commands",
+            "channel": {
+                "view": "Channel View"
+            }
+        },
+        "vault": {
+            "home": "Vault Home",
+            "keystore": "KeyStore",
+            "currency": {
+                "base": "User Currency",
+                "channel": "Channel Currency"
+            }
+        },
+        "other": {
+            "legal": {
+                "tos": "Terms of Sercice",
+                "privacy": "Privacy Policy"
+            }
+        }
+    }
+}

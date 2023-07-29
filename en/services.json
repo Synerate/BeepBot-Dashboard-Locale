@@ -1,0 +1,30 @@
+{
+    "services": {
+        "beepbot": "BeepBot",
+        "all": "All",
+        "twitch": "Twitch",
+        "steam": "Steam",
+        "epic": "Epic",
+        "mixitup": "MixItUp",
+        "streamlabs": "StreamLabs (Desktop)",
+        "generic": "Generic",
+        "firebot": "FireBot",
+        "scottybot": "ScottyBot",
+        "discord": "Discord",
+        "xsplit": "XSplit",
+        "glimesh": "Glimesh",
+        "streamdeck": "StreamDeck",
+        "trovo": "Trovo",
+        "twitter": "Twitter",
+        "streamelements": "StreamElements",
+        "streamloots": "Streamloots",
+        "obs": "OBS (Open Broadcasting Software)",
+        "ko-fi": "Ko-fi",
+        "kofi": "Ko-fi",
+        "patreon": "Patreon",
+        "picarto": "Picarto",
+        "extralife": "Extra Life",
+        "kick": "Kick",
+        "nightbot": "NightBot"
+    }
+}

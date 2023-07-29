@@ -1,0 +1,52 @@
+{
+    "teams": {
+        "title": "Teams",
+        "desc1": "Creating teams allows you to share bot accounts and other features with team members",
+        "desc2": "Note: You may only be a member of 5 teams total!",
+        "none": "You do not own or belong to any teams.",
+        "form": {
+            "name": {
+                "title": "Team Name",
+                "help": "Give your team a name. This name will be shown publically."
+            },
+            "bio": {
+                "title": "Team Bio",
+                "help": "Tell us about your team."
+            },
+            "icon": {
+                "title": "Team Icon",
+                "help": "Give your team an icon; this can be any image type."
+            }
+        },
+        "invites": {
+            "title": "Invites",
+            "none": "You have not been invited to any new teams",
+            "desc1": "{user} has invited to join the team!",
+            "joined": "You have successfully joined the {team} team!",
+            "rejected": "You have rejected the invite to join {team}."
+        },
+        "listing": {
+            "owner": "Your Teams",
+            "other": "Other Teams"
+        },
+        "leave": "You have left the team {team}",
+        "manage": {
+            "title": "Manage: {team}",
+            "title2": "Edit Team Details",
+            "desc1": "Here you can edit your team information. Along with adding or removing members.",
+            "desc2": "You'll also be able to update any shared data which all tied user(s) BeepBot channels will have access to. ",
+            "invited": "{user} has been invited. They have 48 hours to accept the invite.",
+            "removed": "{user} has been removed from the team.",
+            "members": {
+                "title": "Manage Members",
+                "table": {
+                    "user": "User",
+                    "joined": "Has Joined"
+                }
+            }
+        },
+        "bio": "Bio",
+        "noBio": "This team lacks a Bio. So have a bad joke instead. What did the fish say when he swam into a wall? Dam.",
+        "members": "Members"
+    }
+}

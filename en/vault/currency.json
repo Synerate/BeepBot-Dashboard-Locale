@@ -1,0 +1,24 @@
+{
+    "currency": {
+        "desc1": "Here you can view your currency for {channel}. You'll also be able to see this live update, along with in the future ablity to claim your daily bonuses & join games.",
+        "viewer": {
+            "title": "Your Currencies"
+        },
+        "leaderboard": {
+            "title": "Channel Leaderboard"
+        },
+        "table": {
+            "title": "Your Currencies",
+            "channel": "Channel",
+            "totalAmount": "Total Amount Earnt",
+            "firstEarnt": "First Earnt",
+            "channelPage": "Channel Page"
+        },
+        "detail": {
+            "name": "Currency Name",
+            "earned": "Earned",
+            "dailyClaimed": "Daily Claimed",
+            "notClaimed": "Not Claimed"
+        }
+    }
+}

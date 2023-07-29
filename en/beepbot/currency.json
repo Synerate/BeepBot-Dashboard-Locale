@@ -1,0 +1,237 @@
+{
+    "currency": {
+        "title": "Currency",
+        "desc1": "Currency, or points, are a method to reward your users for being a part of your community. They can earn them from being in chat or winning them in games/events.",
+        "desc2": "You can find more information & documentation <5>here</5>.",
+        "slots": "You have {currCount}/{totalCount} slots used. Pro users get {proCount}!",
+        "active": "Successfully changed the active currency to {name}.",
+        "settings": {
+            "title": "Settings",
+            "online": {
+                "title": "Channel Online",
+                "desc": "Have this enabled if you only want users to earn currency when you're actively streaming. Note: This only effects passive earning. Users playing chat games while offline will still earn or lose points."
+            },
+            "provider": {
+                "title": "Enabled Providers",
+                "desc": "Select the providers in which you want users to earn currency from."
+            }
+        },
+        "tracker": {
+            "title": "Tracker",
+            "desc1": "The tracker is needed to tell BeepBot to process currencies for your channel. We will try to keep this active for you, but there will be occasions where you'll need to toggle it back on. So you can use the controls below to do so.",
+            "desc2": "You can also turn it off! Sometimes you may not want to have users earning, so you have full control over what happens.",
+            "state": {
+                "enabled": "{name} tracker is enabled for processing currencies.",
+                "disabled": "{name} tracker is disabled for processing currencies."
+            }
+        },
+        "manage": {
+            "title": "Manage Currencies",
+            "table": {
+                "name": "Name",
+                "active": "Active",
+                "state": "Current State",
+                "reset": "Reset",
+                "actions": ""
+            },
+            "activeTip": "Set Active",
+            "editTip": "Edit Currency",
+            "diaTitle": "Editing: {name}",
+            "name": {
+                "title": "Name",
+                "help": "The name will also be the command. (Casing won't matter for the command)"
+            },
+            "state": {
+                "title": "Earning State",
+                "help": "The active state for what amount of currency users will earn."
+            },
+            "dailyClaim": {
+                "title": "Daily Claim",
+                "help": "The amount (in points) users can claim for their daily bonus."
+            },
+            "boosts": {
+                "generic": "Generic",
+                "genericHelp": "Boost amount applied to Everyone.",
+                "help": "Boost amount applied to {role}s."
+            },
+            "options": {
+                "earn": {
+                    "title": "Earn Time",
+                    "help": "The time (in seconds) on how often currency should be allocated to users."
+                },
+                "active": {
+                    "title": "Active Time",
+                    "help": "The time (in seconds) for when a user is no longer treated as active."
+                },
+                "dailyClaim": {
+                    "title": "Daily Claiming",
+                    "help": "Allow users to claim a daily bonus."
+                },
+                "stealing": {
+                    "title": "User Stealing",
+                    "help": "Allow users to steal currency from other users."
+                },
+                "stealingGain": {
+                    "title": "Stealing Gain",
+                    "help": "Allow the targeted user to gain the losers currency after a failed steal."
+                },
+                "wallets": {
+                    "title": "Wallets Enabled",
+                    "help": "Enforce the usage of wallets for the currency."
+                },
+                "gifting": {
+                    "title": "Point Transfers",
+                    "help": "Allow users to transfer points to other users."
+                },
+                "stealPercentage": {
+                    "title": "Steal Percentage",
+                    "help": "The percentage chance of the user being able to steal from a user."
+                },
+                "maxTakingPercentage": {
+                    "title": "Max Stealing Percentage",
+                    "help": "The maximum (in percent) of the points the user can steal from the other user."
+                },
+                "stealingLoss": {
+                    "title": "Stealing Loss",
+                    "help": "Should users lose some of the currency they could've gained. If they lose a steal to another user."
+                },
+                "stealingLossPercentage": {
+                    "title": "Stealing Loss Percentage",
+                    "help": "The maximum (in percent) of the currency that the user loses when they are unable to steal from another user."
+                },
+                "gamble": {
+                    "title": "Gambling Enabled",
+                    "help": "Enable the gamble command for this currency."
+                },
+                "gambleLimit": {
+                    "title": "Gamble Limit",
+                    "help": "Control the amount of currency which users can gamble away. This is global over all games the bot features. Setting this to 0 disables the limiting."
+                }
+            },
+            "restrictions": {
+                "roles": {
+                    "title": "Blocked Roles",
+                    "help": "Users with the selected roles will be blocked from earning points."
+                },
+                "users": {
+                    "title": "Block Users",
+                    "help": "Type in names separated by commas to block specific users from earning points."
+                }
+            },
+            "example": {
+                "title": "Example User Earning",
+                "desc1": "Formula: (Generic + Subscriber + Regular + Moderator + VIP) = {number} * Earn Rate",
+                "desc2": "(Math is based off your active earning state: {state})",
+                "desc3": "Active User:",
+                "desc4": "Lurking User:"
+            },
+            "tab": {
+                "states": "States",
+                "wallets": "Wallets",
+                "buys": "Purchases",
+                "lang": "Custom Language",
+                "basic": "Basic Settings",
+                "options": "Options",
+                "boosts": "Boosts",
+                "restrictions": "Currency Restrictions",
+                "advanced": "Advanced Settings"
+            },
+            "states": {
+                "title": "Earning States",
+                "table": {
+                    "name": "Name",
+                    "active": "Active Earn (In Points)",
+                    "lurker": "Lurker Earn (In Points)"
+                },
+                "error": {
+                    "state": {
+                        "name": "State needs to have a name.",
+                        "len": "Min name length is 4."
+                    }
+                }
+            },
+            "other": {
+                "title": "Other Settings",
+                "desc1": "Use the tabs below to change other settings."
+            },
+            "users": {
+                "title": "Manage Currency Users",
+                "table": {
+                    "name": "User",
+                    "provider": "Provider",
+                    "wallet": "Wallet",
+                    "amount": "Amount",
+                    "filterTitle": "Provider Filter",
+                    "filterDesc": "Filter down the listing for a specific provider."
+                },
+                "bulk": {
+                    "title": "{method} currency for {users} user(s)",
+                    "input": "Amount of {name}",
+                    "reset": "You are about to reset the currency for the selected users. This action can NOT be reversed! Hitting save will execute the reset.",
+                    "feedback": {
+                        "badNumber": "The input value for the currency is invalid. Please try again.",
+                        "tooSmall": "The input value is too small. Must be larger than 1.",
+                        "success": "Successfully edited the currency for {users} user(s)."
+                    }
+                }
+            }
+        },
+        "reset": {
+            "title": "Reset Earnt Currency",
+            "desc1": "WARNING: This will reset all the currency in which users have earnt. This is irreversible, ensure you want to do this.!",
+            "tip": "{name} has been reset."
+        },
+        "add": {
+            "title": "Create Currency",
+            "desc1": "Go on give your currency a name! This is also the name which will be used as the command in your chat.",
+            "input": "Currency name...",
+            "helper": "The name needs to be single worded, but also contain no numbers or special characters."
+        },
+        "buy": {
+            "title": "Currency Purchases",
+            "table": {
+                "from": "From",
+                "to": "To",
+                "cost": "Cost (In Points)",
+                "example": "Example",
+                "exampleDesc1": "15 x {name} will cost {cost} {otherName}"
+            },
+            "error": {
+                "cost": {
+                    "empty": "Need to have a cost.",
+                    "zero": "Cost needs to be more than 0."
+                }
+            }
+        },
+        "stats": {
+            "title": "Stats for {name}",
+            "tooltip": "View Stats",
+            "general": "General",
+            "reset": "Reset",
+            "list": {
+                "totalEarnt": "Total Currency Earnt: {total}",
+                "totalUsers": "Total Currency Users: {total}",
+                "averageEarnt": "Average Currency Earnt: {average}",
+                "minEarnt": "Min Currency Earnt: {total}",
+                "maxEarnt": "Max Currency Earnt: {total}",
+                "resetCount": "Reset Count: {total}",
+                "sinceLast": "Last Reset: {time}"
+            }
+        },
+        "lang": {
+            "desc1": "Customize some of the messages used in command responses. You can leave these empty also to use the default language. Otherwise you can tweak to match your currency theme!",
+            "userAmount": {
+                "title": "Message for when users use the !{name} command.",
+                "help": "Available Arguments: {user}, {amount}, {currency} and {position}."
+            },
+            "dailyAlready": {
+                "title": "Message for when the use has already claimed.",
+                "help": "Availble Arguments: {user}"
+            },
+            "dailyClaimed": {
+                "title": "Message for when the user claims the daily bonus.",
+                "help": "Available Arguments: {user}, {amount} & {currency}"
+            }
+        }
+    }
+}

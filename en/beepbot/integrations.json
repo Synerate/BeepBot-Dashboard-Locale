@@ -1,0 +1,71 @@
+{
+    "integrations": {
+        "title": "Integrations",
+        "desc1": "Connect Third Party services to have IFTBT events",
+        "list": "Your Integrations",
+        "form": {
+            "steps": {
+                "1": "Select Service",
+                "2": "Add Details {service}",
+                "3": "Finish"
+            },
+            "stepsContent": {
+                "0": "Select the service to add an integration for.",
+                "1": "Please complete the following fields to add the service.",
+                "2": "Your all set! You can now activate the service integration on the listing.",
+                "3": "Please wait while we save your data..."
+            },
+            "serviceDetails": {
+                "streamlabs": {
+                    "desc1": "You can locate the Socket API Token under \"API Tokens\".",
+                    "desc2": "The token can be found: ",
+                    "form1": "Socket Token"
+                },
+                "streamloots": {
+                    "desc1": "Locate the Alerts URL on the Dashboard under \"Page Configuration > Alerts\". (On the left hand menu.)",
+                    "desc2": "The token can be found: ",
+                    "form1": "Alert URL"
+                },
+                "streamelements": {
+                    "desc1": "Locate the JWT Token on the account dashboard. You'll need to toggle the \"Show secrets\" to show the JWT token. Copy all the text in the section and this is what you'll need to paste here.",
+                    "desc2": "The token can be found: ",
+                    "form1": "JWT Token"
+                },
+                "kofi": {
+                    "desc1": "The verification token allows us to ensure the data incoming is from your Ko-fi account.",
+                    "desc2": "The token can be found: <0>here</0> (Under Advanced)",
+                    "desc3": "Webhook URL",
+                    "desc4": "Copy this webhook URL into the field on the Ko-fi <0>API page</0>.",
+                    "form1": "Verification Token"
+                },
+                "extralife": {
+                    "desc1": "Locate your participant ID from your Extra Life page. It will be in the URL. For example, if your URL is https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=123456, your participant ID is 123456.",
+                    "form1": "Participant ID"
+                }
+            },
+            "serviceName": {
+                "desc1": "Name",
+                "desc2": "Name your integration so you know what's what."
+            }
+        },
+        "information": {
+            "streamlabs": "StreamLabs integration allows you to recieve Tip, Merch, & ExtraLife alerts.",
+            "streamelements": "StreamElements integration allows you to receive Tip & Merch alerts.",
+            "streamloots": "StreamLoots integration allows you to recieve Card events.",
+            "kofi": "Ko-fi is the easiest way for you to start making an income directly from your fans.",
+            "extralife": "Play games, fundraise, and together, we can Change Kids' Health to Change the Future!",
+            "treatstream": "Let your friends and supporters send you food delivery!"
+        },
+        "other": {
+            "title": "Other Integrations",
+            "desc1": "Here you can find intergations with BeepBot which can be third-party or developed by Synerate.",
+            "streamdeck": {
+                "desc1": "Interface with BeepBot using your StreamDeck. Developed by Synerate."
+            },
+            "desktop": {
+                "title": "BeepBot Desktop",
+                "desc1": "Add that special flair to your channel's IFTBTs via the ability to further control applications (Hue Lighting, Nanoleaf). More integrations to come. Developed by Synerate."
+            }
+        }
+    }
+}

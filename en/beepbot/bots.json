@@ -1,0 +1,47 @@
+{
+    "bots": {
+        "desc1": "Add your custom bot user on the services of your choice below.",
+        "desc2": "Please Note: We do not allow users to add their own account as a bot user as it will not listen to your commands/itself.",
+        "view": {
+            "created": "Added",
+            "updated": "Last Updated",
+            "success": "The bot user has been added. To use this user, change the active user using the selector at the top of this page."
+        },
+        "manage": {
+            "add": "Add Bot User",
+            "edit": "Edit Bot User",
+            "desc1": "Add your bot by clicking \"GET\" to start the process.",
+            "desc2": "Due to limitations with the services we use, please ensure you click the \"Not You\" or \"Use Another Account\" button on the prompt to log into the bot-account.",
+            "desc3": "This window will automatically close once the token has been processed.",
+            "window": "Authentication window opened. Please refer to the pop-up to link your bot-acount.",
+            "close": "This window should close on it's own. If not, please close it now."
+        },
+        "errors": {
+            "denied": "Error: You have denied access to your bot account. If you wish to add the account, please close this window and try again.",
+            "default": "Error: An error occured while processing your request."
+        },
+        "users": {
+            "title": "Manage Users"
+        },
+        "active": {
+            "title": "Active User",
+            "desc1": "Select the bot user in which you want to have BeepBot to use.",
+            "desc2": "Please note, you are only allowed to make a change once each 24 hours.",
+            "desc3": "Note: If you made a genuine mistake with swapping a user. You can file a support ticket and we can review it, please be aware this would be a rare chance of allowance.",
+            "label": "Bot User for {provider}",
+            "labelHelp": "Change the bot user you want to be in your chat by selecting the user and hitting save."
+        },
+        "locked": {
+            "title": "{provider} locked for editing.",
+            "desc1": "You have made a change recently to this bot-user. You'll be able to make changes again:"
+        },
+        "changing": "Hold tight! Beep is changing your user...",
+        "changed": "{provider} has been changed successfully.",
+        "states": {
+            "1": "There was a problem updating the token for the user. We recommend manually updating the token for the bot user.",
+            "2": "There was a problem updating the token for the user. We recommend manually updating the token for the bot user.",
+            "3": "There was a problem updating the token for the user. We recommend manually updating the token for the bot user.",
+            "50": "We have been advised by the API provider to have users update tokens manually. Please perform this action ASAP."
+        }
+    }
+}

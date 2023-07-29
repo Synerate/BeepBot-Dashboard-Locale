@@ -1,0 +1,21 @@
+{
+    "adverts": {
+        "title": "Automated Adverts",
+        "desc1": "Don't want to have to run commands to run an Ad? BeepBot can help assist you with running adverts on your behalf! It's as simple as enabling the platform(s), set the delay time and give the toggle a click to get things running.",
+        "desc2": "Note: This is a feature still in testing so it may fail at times. It's also only enabled for Mixer at current, we're reviewing other platforms.",
+        "settings": {
+            "title": "Settings",
+            "enabled": {
+                "title": "Enabled Platforms",
+                "help": "Platforms in which we'll help manage adverts to automattically play."
+            },
+            "interval": {
+                "title": "Delay Time",
+                "help": "How often (in seconds) should an advert be queued to play."
+            },
+            "toggle": {
+                "title": "Enable Auto-Ads"
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "schedule": {
+        "title": "Channel Schedule",
+        "days": {
+            "0": "Sunday",
+            "1": "Monday",
+            "2": "Tuesday",
+            "3": "Wednesday",
+            "4": "Thursday",
+            "5": "Friday",
+            "6": "Saturday"
+        },
+        "item": {
+            "users": "Playing with: {users}",
+            "delete": "Schedule Item",
+            "none": "No Events Found.",
+            "start": "Start: {time}",
+            "end": "End: {time}"
+        },
+        "manage": {
+            "inputDate": "Event Day",
+            "inputDateHelp": "The day which the event will be running on.",
+            "titleNew": "Create an event for {day}",
+            "titleEdit": "Editing: {name}",
+            "titleClone": "Cloning: {name}",
+            "inputTitle": "Event Title",
+            "inputGame": "Game",
+            "inputUsers": "Playing With (press enter after each name) [Optional]",
+            "inputTime": "Set Timings",
+            "inputStart": "Start Time [Optional]",
+            "inputEnd": "End Time [Optional]",
+            "inputDesc": "Brief description of the event",
+            "inputDescHelp": "Note: These are not currently displayed on MixPlay. This will be a future addition.",
+            "inputPlatform": "Platform(s) in which the event is taking place.",
+            "inputBackgroundUri": "Custom Background Image",
+            "inputBackgroundUriHelp": "This needs to be the full path to the image to use for the background. If not filled, we'll use the background for the game selected."
+        }
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "pro": {
+        "redirected": "The feature you are trying to request requires Pro!",
+        "legal": {
+            "title": "Legal & Terms",
+            "desc1": "By subscribing to BeepBot Pro you are going to set-up a recurring payment to Synerate Limited via Stripe.",
+            "desc2": "Your first payment will be ${cost} to access BeepBot Pro. If you have used a promotional code you renewal cost may increase. You'll recieve an invoice which will reflect the correct cost.",
+            "desc3": "You must be the authorised account holder for the card being used.",
+            "desc4": "You will be able to access to features mentioned above as soon as the payment is succeeded. If you cancel or payment fails thereafter access to Pro features will be removed from you account.",
+            "desc5": "If you need help or assistance with this process. Please contact our support using the link in navigation above."
+        },
+        "title": "BeepBot Pro",
+        "desc1": "Beepbot Pro subscriptions offer numerous features and even discounts to add to our already robust suite of tools.",
+        "desc2": "Select one of the plans below to get started!",
+        "getPro": "Get BeepBot Pro",
+        "features": {
+            "commands": {
+                "title": "Custom Commands",
+                "desc1": "Want a custom chat command for a <pink>!pillowfight</pink>? We got you covered."
+            },
+            "quotes": {
+                "title": "Quotes",
+                "desc1": "A memorable <cyan>!quote</cyan> will last a lifetime."
+            },
+            "iftbt": {
+                "title": "IFTBT",
+                "desc1": "Trigger actions from events. Like turning on a <pink>!light</pink> with a new follow."
+            },
+            "currency": {
+                "title": "Currency",
+                "desc1": "All the <gold>!gold</gold> or <red>!eyeballs</red> for your viewers to play with."
+            },
+            "automation": {
+                "title": "Automation",
+                "desc1": "<green>!Macros</green> will do a lot of things automatically so you don't have to."
+            },
+            "giveaway": {
+                "title": "Giveaways",
+                "desc1": "Utilize that huge pile of <pink>!keys</pink> you have laying around and do a <gold>!giveaway</gold>."
+            },
+            "customBot": {
+                "title": "Custom Bot Users",
+                "desc1": "Name your <pink>!bot</pink> whatever your heart's desire"
+            },
+            "files": {
+                "title": "File Uploads",
+                "desc1": "Everyone likes to <cyan>!upload</cyan> stuff, and we have 4 kilobytes of free space!"
+            },
+            "earlyAccess": {
+                "title": "Early Access",
+                "desc1": "Want to help <red>!test</red> new features?"
+            }
+        },
+        "plans": {
+            "title": "BeepBot Pro Plans",
+            "desc1": "Choose the BeepBot Subscription recurrence that best fits your needs. We promise we only spend 95% of money on cookies.",
+            "features": {
+                "header": {
+                    "feature": "Feature",
+                    "free": "Free",
+                    "pro": "Pro"
+                }
+            },
+            "select": "Select {plan}",
+            "selected": "Selected {plan}",
+
+            "monthly": {
+                "title": "Monthly",
+                "desc1": "Billed every month",
+                "desc2": "No savings",
+                "select": "Monthly"
+            },
+            "annual": {
+                "title": "Annual",
+                "desc1": "Billed Annually",
+                "desc2": "2 Free months",
+                "select": "Annualy"
+            },
+            "biannual": {
+                "title": "Bi-annually",
+                "desc1": "Billed every 6 months",
+                "desc2": "8% discount",
+                "select": "Bi-annually"
+            }
+        },
+        "payment": {
+            "title": "Payment Details",
+            "submit": "Continue to checkout",
+            "promo": {
+                "desc1": "If you have a discount code, you can paste it in here",
+                "placeholder": "Paste coupon code here",
+                "buyView": ""
+            },
+            "waiting": {
+                "desc1": "We are waiting for Stripe to confirm the subscription. The site will reload once this is completed.",
+                "desc2": "You are still able to use BeepBot while this processes. If Pro does not show up after an hour please contact support."
+            }
+        },
+        "manage": {
+            "title": "Manage Subscription",
+            "desc1": "Thank you for supporting Synerate & BeepBot for having a Pro Subscription.",
+            "details": {
+                "title": "Details",
+                "desc1": "Subscribed: {date}",
+                "desc2": "Expires: {date}",
+                "lifetime": "Lifetime"
+            },
+            "manage": {
+                "title": "Customer Portal",
+                "btn": "View",
+                "desc1": "Use the button above to manage your plans or update payment information."
+            }
+        }
+    }
+}

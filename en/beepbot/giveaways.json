@@ -1,0 +1,49 @@
+{
+    "giveaways": {
+        "title": "Giveaways",
+        "desc1": "Giveaways are a fun thing to do, but can tend to be a difficult thing to manage/give out the keys to user(s). We have helped bridge the gap to make it easier!",
+        "desc2": "To begin, click the command icon in the table on the key you want to give away, or click the button below to get a random key.",
+        "list": {
+            "item1": "Add a key/url to your Key Store down below.",
+            "item2": "Generate the command for either a random, or specific giveaway.",
+            "item3": "Run the command in your chat.",
+            "item4": {
+                "a": "Users can run ",
+                "b": "!join",
+                "c": " (Default) or whatever alias you create to enter."
+            },
+            "item5": "When the giveaway expires, a user will be picked.",
+            "item6": {
+                "a": "They will have a limited amount of time to claim by typing ",
+                "b": "!claim",
+                "c": ", otherwise it will re-roll."
+            },
+            "item7": "The key/url will be marked as claimed on your dashboard. Streamer can then coordinate winnings however they prefer."
+        },
+        "commandBtn": "Get Command",
+        "startGiveaway": "Start Giveaway",
+        "start": {
+            "title": "Start Giveaway",
+            "desc1": "Select the platform below and your options to start the giveaway.",
+            "form": {
+                "platform": {
+                    "title": "Platform",
+                    "help": "Platform to start the giveaway on."
+                },
+                "time": {
+                    "title": "Join Time",
+                    "help": "Min: 300 (5 Mins) Max: 1800 (30 Mins)"
+                },
+                "sub": {
+                    "title": "Sub Only",
+                    "help": "Subscribers will only be allowed to join."
+                },
+                "discord": {
+                    "title": "Discord Channel",
+                    "help": "Make sure users are able to chat in the channel!"
+                }
+            },
+            "success": "Giveaway has been queued to start. Check your chat to see if it was able to start!"
+        }
+    }
+}

@@ -1,0 +1,357 @@
+{
+    "iftbt": {
+        "alerts": {
+            "cap": {
+                "title": "Action Limit Reached",
+                "desc1": "You have reached the maximum amount of actions for this IFTBT. Please remove an action before adding another."
+            }
+        },
+        "title": "IF This Beep That",
+        "desc1": "IFTBT give you the power to trigger actions when certain events occur, E.G. Going live on Twitch posts a message in Discord.",
+        "desc2": "IFTBT gives you this flexibility by leveraging our event system. So you can trigger actions on the platforms we integrate with (ex: If [follow] then [chat message]). You can also think of this to your Google Home or Alexa system, where an action is performed based on a vocal command.",
+        "desc3": "We try to bring the power of the event system to your fingertips, which allows you to take control and create your unique event experiences.",
+        "descKey": "Colour Key: Red = Disabled, Amber = Private",
+        "table": {
+            "title": "Your IFTBTs",
+            "name": "Name",
+            "trigger": "Trigger",
+            "service": "Service",
+            "action": "Action Count",
+            "editActions": "Edit Actions",
+            "testAction": "Test Action"
+        },
+        "manage": {
+            "title": "New IFTBT{title}",
+            "edit": "Editing: {name}",
+            "duplicate": "Duplicating: {name}",
+            "addDesc": "",
+            "editDesc": "",
+            "steps": {
+                "0": "Service & Trigger",
+                "1": "Action(s)",
+                "2": "Complete"
+            },
+            "stepsContent": {
+                "0": "",
+                "1": "",
+                "2": ""
+            },
+            "stepOne": {
+                "service": {
+                    "title": "Pick Service",
+                    "desc1": "Select the Service that the IFTBT will be based from."
+                },
+                "trigger": {
+                    "title": "Select Trigger",
+                    "desc1": "Select the Event/Trigger to initiate the IFTBT."
+                },
+                "recommended": {
+                    "title": "Recommended Actions",
+                    "desc1": "Need help with what to create? Try one of these!",
+                    "category": {
+                        "channel": "Channel Events",
+                        "user": "User Events"
+                    }
+                }
+            },
+            "fields": {
+                "name": "Name your IFTBT",
+                "service": "Service"
+            },
+            "private": {
+                "title": "Private IFTBT",
+                "desc1": "Setting this IFTBT to private means it will be hidden to your managers. This can be used for example hiding webhook URL's or just keeping some events private."
+            },
+            "internal": {
+                "title": "Internal IFTBT",
+                "desc1": "Setting this IFTBT to internal means it will be hidden to the channel owner. This can be used for partner events, or to hide webhook URL's for Discord or Guilded."
+            },
+            "random": {
+                "title": "Pick Random Action",
+                "desc1": "If enabled the system will pick one of the actions added to this IFTBT to trigger."
+            }
+        },
+        "destination": {
+            "twitch": "Twitch",
+            "discord": "Discord",
+            "shared": "{service} (Shared)",
+            "streamlabs": "StreamLabs",
+            "streamloots": "StreamLoots",
+            "glimesh": "Glimesh",
+            "hue": "Philips Hue",
+            "overlay": "Overlay: All",
+            "overlaySingle": "Overlay: {name}"
+        },
+        "advanced": {
+            "title": "Advanced Options",
+            "noSupported": "Sorry this action does not currently suport advanced options.",
+            "noDefault1": "We've noticed that you have multiple actions which all have constraints. If you would like a \"default\" event to fallback onto.",
+            "noDefault2": "Please create the same action type, with no constraints. This way you can have events for specific people, but still have the generic event."
+        },
+        "action": {
+            "addBtn": "Add Action",
+            "saveBtn": "Save Action",
+            "listing": "Current Actions",
+            "action": "Select an action",
+            "service": "Select a destination",
+            "constraintExpansion": "Add Constraints (Optional)",
+            "constraintTitle": "Constraints",
+            "constraintList": "Added Constraints",
+            "constraintDesc1": "Optional constraints to only allow the event to run under certain conditions.",
+            "constraintBtn": "Constraint",
+            "constraintTypes": {
+                "is": "Is Equal To",
+                "is_not": "Is Not Equal To",
+                "greater_than": "Greater Than",
+                "greater_than_or_equal_to": "Greater Than Or Equal To",
+                "less_than": "Less Than",
+                "less_than_or_equal_to": "Less Than Or Equal To",
+                "contains": "Contains",
+                "contains_not": "Does Not Contain",
+                "has_role": "Has Role",
+                "is_in_array": "In In Array",
+                "is_not_in_array": "Is Not In Array",
+                "regex_matches": "Regex Matches",
+                "regex_matches_not": "Regex Matches Not"
+            },
+            "constraintForm": {
+                "leftValue": "Property",
+                "comparisonType": "Comparison Type",
+                "rightValue": "Comparison Value",
+                "regexHelp": "We recommend using <1>RegExr</1> to help build your Regex expression."
+            },
+            "constraintLeftValues": {
+                "username": "username",
+                "subTotal": "Total Months"
+            },
+            "message": {
+                "text": "The message to send to the destination",
+                "textId": "Discord Channel ID",
+                "help": "Hint: Use { to search through allowed arguments [ex: {user}]. These are tab completable.",
+                "discord": "Select the Discord Channel to send the event too."
+            },
+            "command": {
+                "input": {
+                    "internal": "Supported chat commands on the service. I.E. /clear"
+                },
+                "internal": "Switch to external command",
+                "custom": "Switch to custom-command",
+                "customDesc1": "Note: Cooldowns on commands can come into effect when using your commands. So this action may trigger with no result if the command is on cooldown."
+            },
+            "argument": {
+                "command": {
+                    "placeholder": "Command name(s). I.E. ping or ping, so etc...",
+                    "help": "Name(s) of the command in which will trigger this event. (Can be comma delimited & casing does not matter.)"
+                },
+                "keyword": {
+                    "placeholder": "Keyword to trigger the event. I.E. Hello!",
+                    "help": "Keyword(s) which will cause this event to trigger. (Casing does not matter!)"
+                }
+            },
+            "currency": {
+                "currId": {
+                    "title": "Currency",
+                    "help": "Choose the currency in which the points will be added too."
+                },
+                "currAmount": {
+                    "title": "Earning Amount",
+                    "placeholder": "Amount",
+                    "help": "The amount of currency to apply to the user."
+                }
+            },
+            "caster": {
+                "desc1": "Select your caster actions below.",
+                "software": {
+                    "help": "Select the software which will handle this action."
+                },
+                "method": {
+                    "method1": "Change Scene",
+                    "method2": "Toggle Source",
+                    "help": "Select the action to perform on the software."
+                },
+                "data": {
+                    "help": "Name of the scene to have the effect applied too."
+                },
+                "source": {
+                    "help": "Name of the source to toggle."
+                },
+                "duration": {
+                    "help": "Duration in MS on how long to change the item. (This will then auto change back to the previous scene) Leave at 0 to just change the state."
+                }
+            },
+            "webhook": {
+                "url": {
+                    "help": "This is the webhook URL from the service you're wanting to use. Needs to be the FULL URL."
+                },
+                "embed": {
+                    "title": "Create your Embed",
+                    "help": "Embeds are a great way to display information in a nice format. You can use the arguments below to help build your embed.",
+                    "args": "Supported arguments which can be used in your embed"
+                },
+                "text": "Message to display before the embed. Can be used for tagging roles!"
+            },
+            "tweet": {
+                "text": "Message to Tweet out. Can include links, hashtags & usertags. #TweetItOut"
+            },
+            "light": {
+                "title": "Pick Light",
+                "noLights": "Don't see your lights? Make sure you have synced them via the Desktop App!"
+            },
+            "delay": {
+                "title": "Action Delay",
+                "placeholder": "Time in seconds.",
+                "help": "The amount of time in seconds in which the action should be delayed before another is ran."
+            },
+            "reset": {
+                "title": "Reset State",
+                "desc1": "Once the action has been ran, it will reset the state back to what it was before. This should be used in conjuction with the delay option.",
+                "desc2": "Note: This isn't supported for light actions at the moment."
+            },
+            "desktop": {
+                "title": "Select Desktop Action",
+                "appTitle": "Desktop App",
+                "appTitleHelp": "The name of the desktop app you want to send the event too.",
+                "method": {
+                    "sceneChange": "Change Stream Scene",
+                    "inputMute": "Mute Input",
+                    "inputUnMute": "Un-Mute Input",
+                    "outputMute": "Mute Output",
+                    "outputUnMute": "Un-Mute Ouput",
+                    "showSource": "Show Source",
+                    "hideSource": "Hide Source",
+                    "startStream": "Start Stream",
+                    "stopStream": "Stop Stream",
+                    "hideFilter": "Hide Filter",
+                    "showFilter": "Show Filter"
+                },
+                "selector":{
+                    "syncHelp": "Don't see any options? Make sure you have synced them via the Desktop App.",
+                    "sceneChange": "Pick Scene",
+                    "inputMute": "Pick Input",
+                    "inputUnMute": "Pick Input",
+                    "outputMute": "Pick Output",
+                    "outputUnMute": "Pick Ouput",
+                    "showSource": "Pick Source",
+                    "hideSource": "Pick Source",
+                    "startStream": "Pick Instance",
+                    "stopStream": "Pick Instance",
+                    "hideFilter": "Source Item",
+                    "showFilter": "Source Item",
+                    "filterPicker": "Select Filter"
+                },
+                "kind": {
+                    "text_source": "Text Source",
+                    "game_capture": "Game Capture",
+                    "video_source": "Video Source",
+                    "media_source": "Media Source",
+                    "image_slide_source": "Image Slide Source",
+                    "colour_source": "Colour Source",
+                    "monitor_capture": "Monitor Capture",
+                    "window_capture": "Window Capture",
+                    "image_source": "Image Source",
+                    "audio_output": "Audio Ouput",
+                    "audio_input": "Audio Input"
+                }
+            },
+            "overlay": {
+                "position": {
+                    "title": "Alert Position",
+                    "desc1": "Postion of the alert on the overlay.",
+                    "supported": {
+                        "top-left": "Top Left",
+                        "top-center": "Top Center",
+                        "top-right": "Top Right",
+                        "middle-left": "Middle Left",
+                        "middle-center": "Middle Center",
+                        "middle-right": "Middle Right",
+                        "bottom-left": "Bottom Left",
+                        "bottom-center": "Bottom Center",
+                        "bottom-right": "Bottom Right"
+                    }
+                },
+                "color": {
+                    "title": "Alert Text Color",
+                    "desc1": "The color of the text in the alert."
+                },
+                "icon": {
+                    "title": "Alert Icon",
+                    "desc1": "Leave blank to not use an icon, you can also pick an icon argument listed below."
+                }
+            },
+            "variable": {
+                "title": "Variable",
+                "titleHelp": "Pick the variable you want to modify from this event triggering.",
+                "method": "Method",
+                "methodHelp": "Select the method on how you want to modify the variable.",
+                "value": "Value",
+                "valueHelp": "The value you want to modify the variable by. (Can be negative)",
+                "methods": {
+                    "add": "Add",
+                    "remove": "Remove",
+                    "set": "Set",
+                    "clear": "Clear"
+                }
+            }
+        },
+        "notice": {
+            "desktopApp": "This action requires the usage of the BeepBot Desktop App. You can find more information in the Integrations section."
+        },
+        "actionOverride": {
+            "light": "Change Lights",
+            "desktop": "BeepBot Desktop App"
+        },
+        "triggers": {
+            "clip_create": "Clip Created",
+            "stream_online": "Stream Online",
+            "stream_offline": "Stream Offline",
+            "follow": "User Followed",
+            "subscribed": "User Subscribed",
+            "subscribedGift": "User Gifted Subscription",
+            "subscribedGiftBulk": "Subscription Bomb",
+            "resubscribed": "User Resubscribed",
+            "costream": "Co-Stream Started",
+            "hosted": "User Hosted",
+            "hosted_auto": "User Hosted (Auto)",
+            "hosting": "Hosted a User",
+            "command": "Command Used",
+            "twitch_cheer": "Bits Donated",
+            "donation": "Donation",
+            "streamloot_redemption": "StreamLoots Card Redeemed",
+            "streamloot_purchase": "StreamLoots Purchase",
+            "streamloot_gifted": "StreamLoots Gift",
+            "merch": "Merch Purchased",
+            "keyword": "Keyword Used",
+            "channel_user_wallet": "Channel Wallet Upgraded",
+            "channel_game_winner": "Channel Game Winner",
+            "donation_extralife": "ExtraLife Donation",
+            "channel_game_update": "Channel Game Update",
+            "channel_adbreak": "Channel Ad-Break",
+            "channel_raided": "Channel Raided",
+            "queue_joined": "User Joined Queue",
+            "queue_leave": "User Left Queue",
+            "queue_removed": "User Removed from Queue",
+            "queue_picked": "Picked Queued Users",
+            "queue_cleared": "Queue was Cleared",
+            "trovo_spell_mana": "Mana Spell Used",
+            "trovo_spell_elixir": "Elixir Spell Used",
+            "twitch_hypetrain_started": "Hypetrain Started",
+            "twitch_hypetrain_updated": "Hypetrain Updated",
+            "twitch_hypetrain_ended": "Hypetrain Ended",
+            "twitch_points_redemption": "Points Redeemed",
+            "trovo_magic_chat": "Magic Chat",
+            "trovo_squad_join": "User Joined Squad",
+            "trovo_squad_quit": "User Left Squad",
+            "health_reminder": "Health Reminder",
+            "stream_sceneChange": "Scene Changed",
+            "channel_announcement": "Channel Announcement",
+            "stream_vod": "Vod Created",
+            "charity_donation": "Charity Donation",
+            "campaign_pledge": "User Pledged (Subscribed)",
+            "campaign_post": "New Campaign Post",
+            "user_banned": "User Banned",
+            "user_unbanned": "User Unbanned",
+            "user_timedout": "User Timed Out",
+            "treat": "Treat Donated"
+        }
+    }
+}

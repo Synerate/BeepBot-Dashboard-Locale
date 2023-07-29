@@ -1,0 +1,39 @@
+{
+    "timers": {
+        "title": "Timer",
+        "desc1": "Timers allow you to automate messages or commands to be posted into your chat! This way you can have sponsor messages and/or helpful messages to be on show to your users in and joining the channel.",
+        "desc2": "BeepBot timers are different to other bots, as instead of them all firing off on their own timers. You have one delay interval, which will fire your timers as you've ordered them.",
+        "settings": {
+            "global": {
+                "name": "Enable Timers",
+                "help": "If this is disabled, no timers will run on any platform. Regardless of whether the platform timer is enabled. Think of this as the master switch on or off."
+            },
+            "delay": {
+                "name": "Timer Delay",
+                "help": "Delay (In seconds) on how often to run a timer."
+            },
+            "messageCount": {
+                "name": "Message Count",
+                "help": "Count of messages which need to be in chat before triggering a timed message. You can reset the message count by resetting the enabled state for the provider."
+            }
+        },
+        "manage": {
+            "add": "Add Timer for {provider}",
+            "enable": "Enable for {provider}",
+            "form": {
+                "type": "Type",
+                "message": "Message",
+                "command": "Command",
+                "selectCmd": "Select a Command",
+                "commands": {
+                    "tweet": "Tweet Command"
+                },
+                "clone": {
+                    "title": "Clone Timer",
+                    "desc1": "This will copy the timer to the new provider, and will not affect the original timer.",
+                    "select": "Pick Provider"
+                }
+            }
+        }
+    }
+}

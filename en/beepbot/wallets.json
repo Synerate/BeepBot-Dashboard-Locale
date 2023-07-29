@@ -1,0 +1,21 @@
+{
+    "wallets": {
+        "title": "Wallets",
+        "table": {
+            "name": "Name",
+            "tier": "Tier",
+            "cost": "Cost (In Points)",
+            "cap": "Cap (In Points)"
+        },
+        "error": {
+            "tier": {
+                "len": "Tier can not be less that 0.",
+                "taken": "Tier level aready taken!",
+                "high": "Tier level too high. Next available tier is: {tier}."
+            },
+            "cost": {
+                "same": "Cost can't be more than the previous tier's cap!"
+            }
+        }
+    }
+}
