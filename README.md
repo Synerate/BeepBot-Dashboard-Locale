@@ -1,7 +1,7 @@
 
-# BeepBot Dashboard: Language (Locale)
+# BeepBot: Language (Locale)
 
-Repository containing all the language files which the BeepBot Dashboard uses. This is community-driven to add support for any language.
+Repository containing all the language files that various BeepBot projects use. This is community-driven to add support for any language.
 ## Contributing
 
 Contributions are always welcome!
